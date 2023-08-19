@@ -1,13 +1,12 @@
-package br.com.reformas.api.prestador;
+package br.com.reformas.api.cliente;
 
 import br.com.reformas.api.endereco.DadosEndereco;
 
-public record DadosCadastroPrestador(
+public record DadosCadastroCliente(
 		String nome,
 		String email,
 		String telefone, 
-		String cnpj,
-		Especialidade especialidade, 
+		String cpf,
 		DadosEndereco endereco
 		) {
 }
